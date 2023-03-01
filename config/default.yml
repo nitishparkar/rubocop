@@ -3722,6 +3722,11 @@ Style/FetchEnvVar:
   # Environment variables to be excluded from the inspection.
   AllowedVars: []
 
+Style/FileEmpty:
+  Description: 'Favor `File.empty?` over `File.zero?`'
+  Enabled: pending
+  VersionAdded: '<<next>>'
+
 Style/FileRead:
   Description: 'Favor `File.(bin)read` convenience methods.'
   StyleGuide: '#file-read'
